@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+
 import Header from './Components/Header';
 import CV from './Components/CV';
 import Privacy from './Components/Privacy';
