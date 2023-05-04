@@ -9,6 +9,7 @@ const desc = [
    'UTS Haymarket Building 5, University of Technology Sydney, Australia',
    'Homebush Public School, Homebush, NSW, Australia'
 ]
+const alt = [ 'acu', 'uts', 'hps' ]
 
 export default function Photos() {
    const [count, setCount] = useState(0);
@@ -23,7 +24,7 @@ export default function Photos() {
       Next photo
       </button>
       <h4>{desc[count]}</h4>
-      <img src={images[count]} alt="acupy" />
+      <img src={images[count]} alt={alt[count]} />
       <br />
       </div>
    );
