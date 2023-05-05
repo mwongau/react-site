@@ -16,13 +16,37 @@ export default function Photos() {
   
    function handleClick() {
       setCount((count + 1) % 3); 
-   }	   
+   }	
+
+   function acu() {
+      setCount(0); 
+   }
+   
+   function uts() {
+      setCount(1); 
+   }
+   
+   function hps() {
+      setCount(2); 
+   }
+   
    return (
       <div className="Photo">
       <h2>Photos</h2>
+	  <p>Click Next photo button or select a photo with the name on the button</p>
       <button onClick={handleClick}>
       Next photo
+      </button> |
+	  <button onClick={acu}>
+      Australian Catholic University
+      </button> |
+	  <button onClick={uts}>
+      University of Technology Sydney
+      </button> |
+	  <button onClick={hps}>
+      Homebush Public School
       </button>
+	  
       <h4>{desc[count]}</h4>
       <img src={images[count]} alt={alt[count]} />
       <br />
