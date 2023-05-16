@@ -12,10 +12,8 @@ function CV() {
 	<h3>Certificates</h3>
 	<ul>
 	<li>IBM Data Science Professional Certificate by IBM on Coursera</li>
-	<li>Professional Certificate of "DeepLearning.AI TensorFlow Developer", by DeepLearning.AI
-	    on Coursera</li>
-	<li>Professional Certificate in "Unlocking Information Security" by Tel Aviv University, 
-	    IsraelX & edX</li>
+	<li>Professional Certificate of "DeepLearning.AI TensorFlow Developer", by DeepLearning.AI on Coursera</li>
+	<li>Professional Certificate in "Unlocking Information Security" by Tel Aviv University, IsraelX & edX</li>
 	</ul>
 		
 	<h3>Research specialism</h3>
