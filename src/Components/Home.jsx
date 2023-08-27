@@ -1,3 +1,5 @@
+import "../css/notice.css"
+
 function Home() {
   return (
 	<div className="Home">

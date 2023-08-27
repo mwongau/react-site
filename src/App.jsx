@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './css/links.css';
 
 import Header from './Components/Header';
 import CV from './Components/CV';
@@ -10,11 +10,11 @@ import { Link, Route, Routes } from "react-router-dom";
 
 function App() {
     return (	
-	<div className="App">
+	<div>
 	<Header name="M Wong" sub_title="My personal site" />	
 	<nav className="Links">
-	<Link to="/">HOME</Link> | <Link to="resume">CV</Link> | <Link to="photos">Photos</Link> | 
-	<Link to="privacy"> Privacy</Link>
+	<Link to="/">HOME</Link> | <Link to="resume">CV</Link> | <Link to="photos">PHOTOS</Link> | 
+	<Link to="privacy"> PRIVACY</Link>
 	</nav> 		
 	<Routes>
     	<Route path="/" element={<Home />} />
@@ -22,7 +22,7 @@ function App() {
 	<Route path="photos" element={<Photos />} />
 	<Route path="privacy" element={<Privacy />} />
 	</Routes>
-    	</div>
+    </div>
     );
 }
 export default App;

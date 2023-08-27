@@ -2,6 +2,7 @@ import utsbldg5 from './images/uts-bldg5r.jpg';
 import hps from './images/hps1.jpg';
 import acupy from './images/acupy.jpg';
 import { useState } from 'react';
+import "../css/img.css"
 
 const images = [acupy, utsbldg5, hps] 
 const desc = [
